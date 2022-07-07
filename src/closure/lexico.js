@@ -11,10 +11,8 @@ function myFunction() {
         function child() {
             console.log(inner, myNumber, myGlobal);
         }
-
         return child()
     }
-
     return parent();
 }
 
